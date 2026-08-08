@@ -1,0 +1,23 @@
+# Environment and secrets
+.env
+.env.*
+*.env
+
+# Credentials and keys
+*password*
+*credentials*
+*.pem
+*.key
+*.pfx
+*api_key*
+*apikey*
+*token*
+azure_credentials*
+secrets/
+
+# Temporary and system files
+*.tmp
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
